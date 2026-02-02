@@ -17,8 +17,7 @@ Both image and attribute embeddings are learned jointly so that semantically cor
 After training, image retrieval is performed by embedding a query attribute vector and ranking all images in the retrieval set according to their similarity in the learned embedding space. This enables effective and flexible image retrieval based solely on semantic attribute queries.
 
 ## Dataset Access Instructions
-As requested, the dataset is not included directly in the submission.\
-Instead, the notebook provides a fully automatic and environment-aware loading procedure, ensuring that the CelebA dataset can be obtained easily on any platform.
+The notebook provides a fully automatic and environment-aware loading procedure, ensuring that the CelebA dataset can be obtained easily on any platform.
 
 There are two supported ways to obtain the data:
 1. **Using the CelebA dataset from Kaggle**\
